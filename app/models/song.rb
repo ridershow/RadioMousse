@@ -3,5 +3,6 @@ class Song < ApplicationRecord
 
   validates :title, presence: true
   validates :artist, presence: true
+  validates :track, presence: true
 
 end

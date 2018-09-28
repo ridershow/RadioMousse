@@ -16,6 +16,10 @@ gem 'sass-rails'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
+gem 'shrine'
+gem "aws-sdk-s3", '~> 1.2'
+gem 'dotenv-rails'
+gem 'turbolinks', '~> 5.2.0'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
